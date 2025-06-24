@@ -525,6 +525,7 @@ FT_CONST FLASH_RDID_TYPE_T nand_cmd_id_pool_type2[] =
     {0xa1, 0xd4, 0xa1, 0x20, 0x8000000},    //FM25S01BI3_RDID
     {0xc9, 0xd4, 0xc9, 0x14, 0x20000000},   //HYF4GQ4UAACBE_RDID
     {0xE5, 0xB2, 0XE5, 0x20, 0x10000000},   //DS35Q2GBS-IB_RDID
+    {0xB0, 0x14, 0xB0, 0x20, 0x8000000},   //UM19A0HISW_RDID
     {FLASH_INVALID_ID, 0, 0, 0, 0},         //last one
 };
 
